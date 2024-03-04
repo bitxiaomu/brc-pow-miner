@@ -1,4 +1,4 @@
-# BRC POW Miner
+# BRC PoW Miner
 
 **This is an interest based beta version project, feel free to clone and use.**
 
