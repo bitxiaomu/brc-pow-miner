@@ -1,0 +1,33 @@
+## Bitcoin RPC
+btc_rpc:
+  # mainnet, testnet, regtest
+  
+  # network: mainnet
+  # host: 127.0.0.1:8332
+
+  # network: testnet
+  # host: 127.0.0.1:18332
+  
+  network: regtest
+  host: 127.0.0.1:18443
+
+  endpoint: http
+  user: username
+  pass: password
+
+pow_miner:
+  # miner wallet address, support taproot
+  private_key: ""
+  address: ""
+  
+  # pow coin info
+  protocol: pow-20 OR OTHER PROTOCOL
+  txid: POW 20 DEPLOY TXID
+  tick: ORDI
+  amt: 1000
+  # 00000 zeros in the front of the hash
+  difficulty: 5
+
+  # pow miner config
+  auto_send: true
+  gas_price: 36
